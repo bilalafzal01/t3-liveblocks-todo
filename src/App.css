@@ -35,6 +35,12 @@ input:focus {
   outline: none;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .todo_container {
   display: flex;
   padding: 0.5rem 0.875rem;
@@ -68,5 +74,5 @@ input:focus {
 .someone_is_typing {
   position: absolute;
   font-size: 11px;
-  color: #aaa;
+  color: #ff4d4f;
 }
